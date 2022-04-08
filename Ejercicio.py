@@ -8,6 +8,8 @@ class Calificaciones:
     1er_parcial = list(notas["1er_parcial"])
     2do_parcial = list(notas["2do_parcial"])
     nombre_alumno = list(notas["nombre_alumno"])
-    
+  def notafinal():
+    for i in range(len(self.archivo)):
+      archivo = {}
     
     
