@@ -4,8 +4,8 @@ class Calificaciones:
   def leerarchivo(self):
     notas = read_csv(self.archivo)
     lista_notas = []
-    asistencia = list(notas["asistencia"])
-    1er_parcial = list(notas["1er_parcial"])
-    2do_parcial = list(notas["2do_parcial"])
-    nombre_alumno = list(notas["nombre_alumno"])
-    practicas = list(notas["practicas"])
+    asistencia = list(lista_notas["asistencia"])
+    1er_parcial = list(lista_notas["1er_parcial"])
+    2do_parcial = list(lista_notas["2do_parcial"])
+    nombre_alumno = list(lista_notas["nombre_alumno"])
+    practicas = list(lista_notas["practicas"])
