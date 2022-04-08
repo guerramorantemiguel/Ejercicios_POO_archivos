@@ -11,6 +11,7 @@ class Calificaciones:
   def notafinal():
     for i in range(len(self.archivo)):
       archivo = {}
-      lista_notas.append
+      lista_notas.append(archivo)
+    print(archivo)
     
     
