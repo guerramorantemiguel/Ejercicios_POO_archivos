@@ -10,7 +10,7 @@ class Calificaciones:
     nombre_alumno = list(lista_notas["nombre_alumno"])
   def notafinal():
     for i in range(len(self.archivo)):
-      archivo = {}
+      archivo = {"Nota 1er_parcial".format(nombre_alumno[i]): 1er_parcial[i], "Nota 2do_parcial".format(nombre_alumno[i]): 2do_parcial[i]}
       lista_notas.append(archivo)
     print(archivo)
     
