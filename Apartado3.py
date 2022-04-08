@@ -9,3 +9,6 @@ class Calificaciones:
     2do_parcial = list(notas["2do_parcial"])
     nombre_alumno = list(notas["nombre_alumno"])
     practicas = list(notas["practicas"])
+
+  def aprobado(self):
+    
